@@ -11,10 +11,10 @@ void main()
     // Array declaration
     int arr[n];
     printf("Enter the numbers ");
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
-        scanf("%d", &arr[i - 1]);
-        sum = sum + arr[i - 1];
+        scanf("%d", &arr[i]);
+        sum = sum + arr[i];
     }
     avg = sum / n;
     printf("Sum=%f Average=%f", sum, avg);
