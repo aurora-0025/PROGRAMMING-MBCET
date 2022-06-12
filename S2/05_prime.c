@@ -3,7 +3,7 @@
 void main()
 {
     int n;
-    int a = 0;
+    int isPrime = 0;
     printf("Enter number to be checked = ");
     scanf("%d", &n);
     if (n == 0 || n == 1)
@@ -17,11 +17,11 @@ void main()
             if (n % i == 0)
             {
                 printf("%d is not prime number", n);
-                a = 1;
+                isPrime = -1;
             }
         }
 
-        if (a == 0)
+        if (isPrime == 0)
             printf("%d is a prime number", n);
     }
 }
