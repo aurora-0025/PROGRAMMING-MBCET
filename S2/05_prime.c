@@ -18,6 +18,7 @@ void main()
             {
                 printf("%d is not prime number", n);
                 isPrime = 0;
+                break;
             }
         }
 
