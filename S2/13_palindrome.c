@@ -18,7 +18,7 @@ void main()
 
     // char rev[100];
 
-    for (int i = 0; i < count; i++)
+    for (int i = 0; i <= count/2; i++)
     {
         if (palin[i] != palin[count - 1 - i])
         {
