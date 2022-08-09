@@ -1,1 +1,28 @@
-# C-PROGRAMMING-MBCET
+# PROGRAMMING-MBCET
+
+## S2 Programing In C
+
+[1.i Display "Hello World"](S2/01_i_hello_world.c)  
+[1.ii Read two numbers, add them and display their sum](S2/01_ii_sumoftwonumbers.c)  
+[1.iii Read the radius of a circle, calculate its area and display it](S2/01_iii_areaofcircle.c)  
+[1.iv Area of triangle after reading its sides](S2/01_iv_areaoftriangle.c)  
+[2 Read 3 integer values and find largest of three numbers](S2/02_largestofthreenumbers.c)  
+[3 Check whether given year is leap year](S2/03_leapyear.c)  
+[4 Display the grade of a student after reading his mark for a subject. (Use switch)](S2/04_grade.c)  
+[5 Read a Natural Number and check whether the number is prime or not](S2/05_prime.c)  
+[6 Read a Natural Number and check whether the number is Armstrong or not](S2/06_armstrong.c)  
+[7 Display second largest number after reading n numbers from user(without using an array)](S2/07_secondlargest.c)  
+[8 Read n integers, store them in an array and find their sum and average](S2/08_sumavgarray.c)  
+[9 Read n integers, store them in an array and search for an element in the array using an algorithm for Linear Search](S2/09_Linear_search.c)  
+[10 Read n integers, store them in an array and sort the elements in the array using Bubble Sort algorithm](S2/10_bubblesort.c)  
+[11 Matrix Operations (addition, multiplication, transpose)](S2/11_matrixmenu.c)  
+[12 Display sum of diagonal elements of a matrix](S2/12_Diagonalsum.c)  
+[13 Read a string (word), store it in an array and check whether it is a palindrome word or not.](S2/13_palindrome.c)  
+[14 Read a string (ending with a $ symbol), store it in an array and count the number of vowels, consonants and spaces in it.](S2/14_vowelconsonantspace.c)  
+[15 Display first n prime numbers using Function.](S2/15_firstnprimes.c)  
+[16 Program to find the sum of digits of a number using recursion](S2/16_sumdigits.c)  
+[17 Using structure, read and print data of n employees (Name, Employee Id andSalary)](S2/17_employee.c)  
+[18 Read the marks of three subjects for n students of a class and display their names in the order of rank. (Use array of structure)](S2/18_ranklist.c)  
+[19 Input and print the sum of elements of an array using pointers](S2/19_arraysumpointers.c)  
+[20 File operations (read, write, append)](S2/20_file_operations.c)  
+[21 Open a text input file and count the number of characters, words and lines in it, and store the results to an output file.](S2/21_filewordscharslines.c)  
