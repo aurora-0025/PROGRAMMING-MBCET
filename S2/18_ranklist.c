@@ -50,11 +50,11 @@ void main()
     struct student st[n];
     initial(st, n);
     sort(st, n);
-    printf("RANK LIST\n\n");
+    printf("\t\t\t\tRANK LIST\n\n");
+     printf("Rank\t\t\tName\t\t\tTotal\n");
     for (int i = 0; i < n; i++)
     {
-        printf("Rank = %d\n", (i + 1));
-        printf("Name = %s\n", st[i].name);
-        printf("Total Marks = %f\n\n", st[i].sum);
+       
+        printf("%d\t\t\t%s\t\t\t%.2f\n",(i + 1),st[i].name,st[i].sum);
     }
 }
