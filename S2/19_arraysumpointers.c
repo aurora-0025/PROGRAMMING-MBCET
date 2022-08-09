@@ -9,20 +9,16 @@ int main()
 
    printf("Enter the number of elements to add to array: ");
    scanf("%d", &n);
-
+   ptr=arr;
    printf("Enter the array elements: \n");
    for (i = 0; i < n; i++)
    {
       printf("Enter element %d\n", i + 1);
-      scanf("%d", &array[i]);
-   }
-   ptr = array;
-
-   for (i = 0; i < n; i++)
-   {
+      scanf("%d", arr+i);
       sum = sum + *ptr;
       ptr++;
    }
+   ptr = array;
 
    printf("%d", sum);
 }
