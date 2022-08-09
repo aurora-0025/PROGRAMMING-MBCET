@@ -37,20 +37,3 @@ void main()
     }
 
 }
-
-/*
-Output 
-======
-
-Input file contents..
-This is a random
-Sentence with
-multiple lines
-
-
-Writing output to output.txt
-No of Words: 6
-No of Lines: 4
-No of Characters: 38
-
-*/
