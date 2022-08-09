@@ -5,20 +5,17 @@ int main()
 {
    int i, sum = 0, n = 0;
    int *ptr;
-   int array[n];
-
    printf("Enter the number of elements to add to array: ");
    scanf("%d", &n);
-   ptr=arr;
    printf("Enter the array elements: \n");
-   for (i = 0; i < n; i++)
+   int array[n];
+   ptr=array;
+   for (i = 0; i<n; i++)
    {
       printf("Enter element %d\n", i + 1);
-      scanf("%d", arr+i);
+     scanf("%d", ptr);
       sum = sum + *ptr;
       ptr++;
    }
-   ptr = array;
-
-   printf("%d", sum);
+   printf("Sum of inputted numbers = %d",sum);
 }
