@@ -21,11 +21,11 @@ void display(int arr[][30], int m, int n)
 {
     for (int i = 0; i < m; i++)
     {
-        printf("\n\t");
         for (int j = 0; j < n; j++)
         {
-            printf("%d ", arr[i][j]);
+            printf("%d\t", arr[i][j]);
         }
+        printf("\n");
     }
 }
 
@@ -80,17 +80,20 @@ void trn(int arr[][30], int m, int n)
 
 int main()
 {
+    int isRunning=1;
     int oprtion;
-    printf("1.addition\n2.multiplication\n3.transpose\nEnter the choice:");
+    do
+    {
+    printf("1.addition\n2.multiplication\n3.transpose\n4.exit\nEnter the choice:");
     scanf("%d", &oprtion);
     switch (oprtion)
     {
     case 1:
-        printf("Enter the order of the first matrix: ");
+        printf("Enter the order of the first matrix :\n");
         scanf("%d%d", &m1, &n1);
-        printf("Enter the order of the second matrix: ");
+        printf("Enter the order of the second matrix :\n");
         scanf("%d%d", &m2, &n2);
-        if (m1 == n1 && m2 == n2)
+        if (m1 == m2 && n1 == n2)
         {
             printf("Enter matrix %d\n", i++);
             scan(arr1, m1, n1);
@@ -101,7 +104,8 @@ int main()
         }
         else
         {
-            printf("Invalid Order for the matrix");
+            printf("Invalid Order for the matrix\n");
+            break;
         }
     case 2:
 
@@ -111,7 +115,8 @@ int main()
         scanf("%d%d", &m2, &n2);
         if (n1 != m2)
         {
-            printf("Invalid Order for the matrix");
+            printf("Invalid Order for the matrix\n");
+            break;
         }
         else
         {
@@ -128,8 +133,13 @@ int main()
         scan(arr1, m1, n1);
         trn(arr1, m1, n1);
         break;
+    case 4:
+        printf("Exiting Program");
+        isRunning=0;
+        break;
     default:
         printf("Invalid operation");
     }
+    } while(isRunning);
     return 0;
 }
