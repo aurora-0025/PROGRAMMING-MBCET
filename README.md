@@ -26,3 +26,4 @@
 [19 Input and print the sum of elements of an array using pointers](S2/19_arraysumpointers.c)  
 [20 File operations (read, write, append)](S2/20_file_operations.c)  
 [21 Open a text input file and count the number of characters, words and lines in it, and store the results to an output file.](S2/21_filewordscharslines.c)  
+[22 Implementation of Singly linked list](S2/22_singly_linked_list)
