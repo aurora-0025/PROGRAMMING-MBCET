@@ -10,7 +10,7 @@ void main()
 {
 	FILE *fp;
 	int isRunning = 1, choice;
-	char str[50], ch;
+	char str[100], ch;
 	do
 	{
 		printf("\n\n1) To write to file\n");
@@ -25,7 +25,8 @@ void main()
 			case 1:
 				fp=fopen("file1.txt", "w");
 				printf("Enter data to write to file: ");
-				scanf("%[^\n]s", str);
+				scanf("%[^$]s", str);
+                                getchar();
 				printf("Wrote data to file...\n");	
 				fprintf(fp, "%s", str);
 				fclose(fp);
@@ -44,7 +45,8 @@ void main()
 			case 3:
 				fp=fopen("file1.txt", "a");
 				printf("Enter data to append to file: ");
-				scanf("%[^\n]s", str);
+				scanf("%[^$]s", str);
+                                getchar();
 				printf("Appended data to file...\n");
 				fprintf(fp, "%s", str);
 				fclose(fp);
